@@ -1,13 +1,13 @@
 {% set name = "metatensor-learn" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 package:
   name: python-{{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/metatensor_learn-{{ version }}.tar.gz
-  sha256: 08b67e469f27ae2b8ceb628701805eb8f89d025f64c2e6f18b821594dbe509a9
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/metatensor_learn-{{ version }}.tar.gz
+  sha256: 5a9fa1c8173206005f80ade049b60fcde5d4c19d05f388243694aab88f182602
 
 build:
   noarch: python
