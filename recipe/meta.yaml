@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - python-metatensor-operations >=0.5.0,<0.6
+    - python-metatensor-operations >=0.5.1,<0.6
 
 test:
   imports:
